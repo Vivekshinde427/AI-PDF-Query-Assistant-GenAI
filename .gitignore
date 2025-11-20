@@ -1,9 +1,9 @@
-venv/
 myenv/
+venv/
 .env
 *.env
 __pycache__/
 *.pyc
-.streamlit/
 .vscode/
 .idea/
+.streamlit/
