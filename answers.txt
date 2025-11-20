@@ -1,0 +1,13 @@
+Query: What is Ridge and what is Lasso?
+Answer: **Ridge Regression:**
+Ridge regression is a technique used in regression that adds a penalty to the cost function of a linear regression model. Specifically, it adds the sum of the square of the model weights (multiplied by a parameter called lambda) to the cost function. This causes the model's cost to increase as it chooses larger coefficients, forcing the model to select smaller coefficients. Ridge regression helps shrink coefficients, minimize feature weights, and mitigate overfitting. It's important to note that ridge regression does not set coefficients to zero, so it cannot be used to eliminate features from the model.
+
+**Lasso Regression:**
+Lasso regression uses L1 regularization. Similar to ridge regression, it adds a penalty to the cost function to penalize larger weights. The key difference from ridge regression is that instead of adding the sum of the square of weights, lasso regression adds the absolute value of weights (multiplied by lambda) to the cost function. Lasso regression also helps shrink coefficients and minimize feature weights, and works similarly to ridge regression in mitigating overfitting. A distinct feature of lasso regression is that if the value of lambda is large enough, it can pull feature weights down to zero. When a coefficient becomes zero, that feature is effectively eliminated from the model, allowing lasso regression to help in feature selection by removing unnecessary features.
+
+Query: Explain the concept of overfitting in ML
+Answer: Overfitting is a concept related to a "biased model" in machine learning. It occurs when a model becomes overly complex, often by choosing larger coefficients. While an overfit model might achieve high accuracy on the training data, it fails to provide a genuine and approximate result on unseen data, making the model ultimately of no use for generalization. Techniques like Regularization are used to mitigate overfitting by discouraging the model from becoming too complex and forcing it to choose smaller coefficients.
+
+Query: What are the main differences between supervised and unsupervised learning?
+Answer: I don't know the answer, as the provided context does not contain information about supervised and unsupervised learning. It primarily focuses on various types of regression (Simple Linear, Ridge, and Lasso).
+

@@ -1,0 +1,39 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# ---- Environments ----
+venv/
+.env
+.env.*
+*.env
+
+# ---- Streamlit ----
+.streamlit/secrets.toml
+
+# ---- Cache ----
+*.cache
+.cache/
+pip-wheel-metadata/
+
+# ---- Logs ----
+*.log
+
+# ---- System Files ----
+.DS_Store
+Thumbs.db
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.swp
+
+# ---- Build ----
+build/
+dist/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
