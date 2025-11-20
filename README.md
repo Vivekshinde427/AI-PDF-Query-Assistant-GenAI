@@ -33,7 +33,7 @@ This app lets users:
 |------|------------|
 | **Frontend** | Streamlit |
 | **Backend** | Python |
-| **LLM / GenAI** | Open AI API |
+| **LLM / GenAI** | Google Gemini API |
 | **Embeddings / Vector DB** | Pinecone |
 | **Framework** | LangChain |
 | **PDF Processing** | PyPDF2 / pdfminer |
