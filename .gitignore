@@ -1,9 +1,6 @@
 myenv/
-venv/
 .env
-*.env
 __pycache__/
-*.pyc
-.vscode/
-.idea/
-.streamlit/
+*.log
+*.sqlite
+*.db
